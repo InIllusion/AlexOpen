@@ -1,0 +1,19 @@
+print("Hallo! Loese jede Quadratische Gleichung ganz schnell")
+a = int(input("a = "))
+b = int(input("b = "))
+c = int(input("c = "))
+
+d = b**2-4*a*c
+print(d)
+
+if d >= 0:
+    wurzel1 = (-b + (d ** 0.5)) / (2*a)
+    print(f"x1 = wurzel1: {round(wurzel1,3)}")
+    wurzel2 = (-b - (d ** 0.5)) / (2*a)
+    print(f"x2 = wurzel2: {round(wurzel2,3)}")
+    
+elif d < 0:
+    pass
+else:
+    pass
+       
